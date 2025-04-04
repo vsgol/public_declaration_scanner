@@ -1,0 +1,18 @@
+open class Outer {
+  val outerProp: Int
+  class Inner {
+    fun innerFun()
+    val innerVal: String
+  }
+  interface InnerInterface {
+    fun iFaceFun()
+  }
+  object InnerObject {
+    var flag: Boolean
+  }
+  abstract class AbstractInner {
+    abstract fun abstractMethod()
+    open fun overridable()
+  }
+  suspend fun outerSuspend(): Unit
+}

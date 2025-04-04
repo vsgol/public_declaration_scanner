@@ -1,0 +1,3 @@
+val lambda: lambda
+fun applyTwice(f: (Int) -> Int): Int
+fun main()

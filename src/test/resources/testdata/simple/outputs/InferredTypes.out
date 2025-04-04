@@ -1,0 +1,6 @@
+val number: Any
+val text: Any
+val list: Any
+val lambda: lambda
+val anonFunc: Any
+val obj: Any

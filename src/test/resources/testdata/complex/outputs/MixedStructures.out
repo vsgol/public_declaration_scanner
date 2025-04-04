@@ -1,0 +1,36 @@
+abstract class A {
+  fun aFun()
+  object AO {
+    val aoVal: Any
+    interface AOI {
+      fun call()
+    }
+    class AOC {
+      fun deepFun()
+    }
+  }
+  class AInner {
+    class ADeep {
+      val value: Any
+    }
+    fun innerFun()
+  }
+}
+class B
+object RootObject {
+  val name: Any
+  class BInner {
+    fun run()
+  }
+  interface Marker
+}
+interface MarkerTop
+class Wrapper {
+  fun process()
+  val lambda: lambda
+  class Nested1 {
+    open class Nested2 {
+      suspend fun nestedJob()
+    }
+  }
+}

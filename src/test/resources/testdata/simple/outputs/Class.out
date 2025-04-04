@@ -1,0 +1,8 @@
+class MyClass {
+  val id: Int
+  var name: String
+  fun greet(user: String): String
+  suspend fun fetch(): Boolean
+  inline fun compute(x: Int): Int
+  open fun overridable()
+}

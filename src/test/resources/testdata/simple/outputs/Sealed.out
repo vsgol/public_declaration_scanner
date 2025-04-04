@@ -1,0 +1,5 @@
+sealed class Result {
+  class Success
+  class Failure
+  object Loading
+}
